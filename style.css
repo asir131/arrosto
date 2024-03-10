@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.navi{
+    
+    top: .2rem;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    
+   
+    
+    
+}
+.navbar-brand{
+    font-size: 30px;
+    padding-left: 100px;
+    font-weight: 900;
+}
+.men{
+    
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 2rem;
+    
+   
+}
+.men:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    border-bottom: 4px solid red;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    
+    
+    
+}
+.menu{
+    margin-right: 200px;
+    margin-top: 7rem;
+}
+.nnav {
+    background-image: url(./img/m.jpg);
+    margin-top: -4.5%;
+    
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    
+}
+
+#navbarNav{
+    color: white;
+}
+.texthero{
+    position: absolute;
+    left: 3%;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 4px solid white;
+    padding: 30px 50px;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+}
+.texthero p{
+    font-size: 20px;
+}
+@media (max-width: 700px) {
+  .texthero {
+    max-width: 50%; 
+    margin-top: 10rem;
+    left: 3%;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 4px solid white;
+    padding: 20px 40px;
+    
+    border-radius: 10px;
+    
+  }
+}
+/* hidden */
+#hiii{
+  height: 200px;
+  width: 300px;
+  background-color: tomato;
+  position: fixed;
+  z-index: 2;
+  top: 40%;
+  left: -33.5%;
+}
+@media (max-width: 1508px){
+  #hiii{
+    display: none;
+  }
+}
+ .piro{
+  position: absolute;
+  width: 80px;
+  background-color: tomato;
+  left: 38rem;
+  z-index: -1;
+  cursor: pointer;
+}
+#hiii:hover {
+  height: 200px;
+  width: 300px;
+  background-color: tomato;
+  position: fixed;
+  z-index: 2;
+  top: 40%;
+  left: 0;
+  transition-duration: 1s;
+}
+.menuee{
+  width: 40rem;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+/* food items */
+.card{
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 10px 31px 6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 10px 31px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 10px 31px 6px rgba(0,0,0,0.75);
+}
+.hov:hover{
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+#vegetarianAlert{
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+}
+#lowCaloriesAlert{
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+#chefsSpecialAlert{
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+#vegetarianAlert2{
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+}
+#lowCaloriesAlert2{
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+#chefsSpecialAlert2{
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+#vegetarianAlert3{
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+}
+#lowCaloriesAlert3{
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+#chefsSpecialAlert3{
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+#chefsSpecialAlert4{
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+
+
+
+
+/* search bar */
+
+  
+  .searchh{
+        margin-top: 100px;
+        height: 400px;
+        background-image: url(./img/sear.jpg);
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        position: relative;
+  }
+  @media (max-width: 500px){
+    .sear{
+      width: 20rem;
+    }
+  }
+  .form{
+    position: absolute;
+    
+    top: 40%;
+    width: 500px;
+  }
+  .form-input{
+    border-radius: 20px;
+  }
+  ::placeholder{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 20px 30px;
+  }
+
+
+  /* contact */
+
+  .contact{
+    margin-top: 100px;
+    
+    gap: 10rem;
+    display: flex;
+    height: 40rem;
+  }
+  @media (max-width: 1100px) {
+    .contact{
+      margin-top: 100px;
+      
+      gap: 10rem;
+      display: flex;
+      flex-direction: column;
+      height: 50rem;
+    }
+  }
+  form{
+    width: 100%;
+  }
+  .last{
+    margin-top: 20px;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  label{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+  }
+  .btn {
+    background: #bfd3e0;
+    background-image: -webkit-linear-gradient(top, #bfd3e0, #06141c);
+    background-image: -moz-linear-gradient(top, #bfd3e0, #06141c);
+    background-image: -ms-linear-gradient(top, #bfd3e0, #06141c);
+    background-image: -o-linear-gradient(top, #bfd3e0, #06141c);
+    background-image: linear-gradient(to bottom, #bfd3e0, #06141c);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
+    text-shadow: 3px 2px 2px #080008;
+    font-family: Georgia;
+    color: #e6e6e6;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn:hover {
+    background: #263138;
+    background-image: -webkit-linear-gradient(top, #263138, #535e66);
+    background-image: -moz-linear-gradient(top, #263138, #535e66);
+    background-image: -ms-linear-gradient(top, #263138, #535e66);
+    background-image: -o-linear-gradient(top, #263138, #535e66);
+    background-image: linear-gradient(to bottom, #263138, #535e66);
+    text-decoration: none;
+    transition-duration: .5s;
+  }
+  .mapp{
+    margin-top: 5rem;
+    
+    border-radius: 5px;
+  }
+  iframe{
+    border-radius: 20px;
+  }
+  iframe:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+  }
+  
+  
+
+ 
+  @media (max-width: 1000px){
+    
+  }
+
+  /* footer area */
+
+  
+  

@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Food</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <div>
+    <!-- Navigation Bar -->
+  <nav class="navbar nnav  navbar-expand-lg navbar-light ">
+    <div class="container-fluid   navi" id="home">
+      <div class="name">
+        <a class="navbar-brand" style="color: white;" href="#"></a>
+      </div>
+      <button class="navbar-toggler"  style="color: white; background-color:rgb(247, 88, 88); border-radius:5px ; " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="menu">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link men " style="color: white;" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link men" style="color: white;" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link men" style="color: white;" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <div class="texthero">
+      Welcome to Arrosto
+      <p>Lets find somee food</p>
+    </div>
+  </nav>
+
+  
+<!-- hiden bar -->
+
+ <div class="hiddenn" id="hiii">
+  <p class="piro"><i class="fa-solid fa-left-right fa-4x"></i></p>
+  <img src="./img/menue.jpg" alt="" class="menuee">
+ </div>
+
+
+
+
+  
+  <!-- food items -->
+  <div class="container mt-5" id="menu">
+    <!-- Grid Layout for Menu Items -->
+    <div class="row">
+        <!-- Item 1 -->
+        <div class="col-sm-6 col-sm-6  col-md-4 mb-4">
+            <!-- Item Card -->
+            <div class="card">
+                <img src="img/f.jpg" class="card-img-top hov" alt="Dish 1">
+                <div class="card-body">
+                    <h5 class="card-title">Spaghetti Bolognese</h5>
+                    <p class="card-text">Brief description of Spaghetti Bolognese</p>
+                    <p class="card-text">Price: BDT 100</p>
+                    
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+  More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade"  id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width: 800px; width: 80%;" style="max-width: 800px; width: 80%;" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Spaghetti Bolognese</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="vegetarianAlert" class="alert alert-success" role="alert">
+          This item is vegetarian.
+        </div>
+        <div class="card">
+          
+              <img src="img/f.jpg" class="card-img-top" alt="Dish 1">
+              <div class="card-body">
+                  <h5 class="card-title">Spaghetti Bolognese</h5>
+                  <p class="card-text">A classic Italian pasta dish, Spaghetti Bolognese features al dente spaghetti topped with a slow-cooked Bolognese sauce made from ground beef, tomatoes, onions, carrots, and aromatic herbs.</p>
+                  <p class="card-text">
+                    <h5>Ingredients:</h5>
+                    Ground beef
+                    Onion
+                    Carrots
+                    Garlic
+                    Crushed tomatoes
+                    Red wine
+                    Tomato paste
+                    Oregano
+                    Basil
+                    Salt and pepper
+                    Spaghetti
+                    Parmesan cheese <br>
+                    <h5>Nutritional Information:</h5>
+                    
+                    Serving Size: 1 cup
+                    Calories: 350
+                    Total Fat: 15g
+                    Saturated Fat: 6g
+                    Cholesterol: 45mg
+                    Sodium: 600mg
+                    Total Carbohydrates: 35g
+                    Dietary Fiber: 4g
+                    Sugars: 7g
+                    Protein: 20g</p>
+                  
+              </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat similar structure for other items -->
+        <div class="col-sm-6 col-sm-6  col-md-4 mb-4">
+          <!-- Item Card -->
+          <div class="card">
+              <img src="img/o.jpg" class="card-img-top hov" alt="Dish 1">
+              <div class="card-body">
+                  <h5 class="card-title">Chicken Alfredo Pasta</h5>
+                  <p class="card-text">Brief description of Chicken Alfredo Pasta</p>
+                  <p class="card-text">Price: BDT 150</p>
+                  
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;" c>
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="staticBackdropLabel">Chicken Alfredo Pasta</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div id="lowCaloriesAlert" class="alert alert-info" role="alert">
+        Low in calories.
+      </div>
+      <div class="card">
+        
+            <img src="img/o.jpg" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+                <h5 class="card-title">Chicken Alfredo Pasta</h5>
+                <p class="card-text">A creamy and indulgent pasta dish, Chicken Alfredo features tender pieces of chicken in a rich Alfredo sauce made with butter, cream, and Parmesan cheese, served over fettuccine noodles.</p>
+                <p class="card-text">
+                  <h5>Ingredients:</h5>
+                  Chicken breast
+                  Fettuccine noodles
+                  Butter
+                  Heavy cream
+                  Parmesan cheese
+                  Garlic
+                  Salt and pepper
+                  Parsley (for garnish)
+                  <br>
+                  <h5>Nutritional Information:</h5>
+                  
+                  Serving Size: 1 cup
+                  Calories: 500
+                  Total Fat: 25g
+                  Saturated Fat: 15g
+                  Cholesterol: 120mg
+                  Sodium: 700mg
+                  Total Carbohydrates: 40g
+                  Dietary Fiber: 2g
+                  Sugars: 3g
+                  Protein: 30g</p>
+               
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+    </div>
+  </div>
+</div>
+</div>
+              </div>
+          </div>
+      </div>
+
+
+
+      <!-- Repeat similar structure for other items -->
+      <div class="col-sm-6  col-md-4 mb-4">
+        <!-- Item Card -->
+        <div class="card">
+            <img src="img/n.jpg" class="card-img-top hov" alt="Dish 1">
+            <div class="card-body">
+                <h5 class="card-title">Caesar Salad</h5>
+                <p class="card-text">Brief description of Caesar and Saladd.</p>
+                <p class="card-text">Price: BDT 200</p>
+                
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="staticBackdropLabel">Caesar Salad</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <div id="lowCaloriesAlert2" class="alert alert-info" role="alert">
+      Low in calories.
+    </div>
+    <div class="card">
+      
+          <img src="img/n.jpg" class="card-img-top" alt="Dish 1">
+          <div class="card-body">
+              <h5 class="card-title">Caesar Salad</h5>
+              <p class="card-text">A crisp and refreshing Caesar Salad combines fresh romaine lettuce with crunchy croutons, Parmesan cheese, and a tangy Caesar dressing for a timeless and satisfying salad.</p>
+              <p class="card-text"><h5>Ingredients:</h5>
+
+                Romaine lettuce
+                Croutons
+                Parmesan cheese
+                Caesar dressing (anchovies, garlic, Dijon mustard, Worcestershire sauce, lemon juice, olive oil)
+                Black pepper
+                <br>
+                <h5>Nutritional Information:</h5>
+                
+                Serving Size: 1 cup
+                Calories: 200
+                Total Fat: 15g
+                Saturated Fat: 3g
+                Cholesterol: 15mg
+                Sodium: 450mg
+                Total Carbohydrates: 10g
+                Dietary Fiber: 3g
+                Sugars: 2g
+                Protein: 7g</p>
+              
+          </div>
+      </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    
+  </div>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Repeat similar structure for other items -->
+     <div class="col-sm-6  col-md-4 mb-4">
+      <!-- Item Card -->
+      <div class="card">
+          <img src="img/m.jpg" class="card-img-top hov" alt="Dish 1">
+          <div class="card-body">
+              <h5 class="card-title">Margherita Pizza</h5>
+              <p class="card-text">Brief description of Margherita Pizza.</p>
+              <p class="card-text">Price: BDT 200</p>
+              
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title" id="staticBackdropLabel">Margherita Pizza</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <div id="chefsSpecialAlert" class="alert alert-warning" role="alert">
+    Chef's Special.
+  </div>
+  <div class="card">
+        <img src="img/m.jpg" class="card-img-top" alt="Dish 1">
+        <div class="card-body">
+            <h5 class="card-title">Margherita Pizza</h5>
+            <p class="card-text">A classic Margherita Pizza is a celebration of simplicity, featuring a thin crust topped with tomato sauce, fresh mozzarella cheese, tomatoes, and basil leaves, creating a burst of flavors in every bite.A classic Margherita Pizza is a celebration of simplicity, featuring a thin crust topped with tomato sauce, fresh mozzarella cheese, tomatoes, and basil leaves, creating a burst of flavors in every bite.</p>
+            <p class="card-text"><h5>Ingredients:</h5>
+
+              Pizza dough
+              Tomato sauce
+              Fresh mozzarella cheese
+              Tomatoes, thinly sliced
+              Fresh basil leaves
+              Olive oil
+              <br>
+              <h5>Nutritional Information:</h5>
+              
+              Serving Size: 1 slice (1/8 pizza)
+              Calories: 250
+              Total Fat: 10g
+              Saturated Fat: 5g
+              Cholesterol: 25mg
+              Sodium: 500mg
+              Total Carbohydrates: 30g
+              Dietary Fiber: 2g
+              Sugars: 2g
+              Protein: 12g</p>
+            
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+</div>
+</div>
+</div>
+</div>
+          </div>
+      </div>
+  </div>
+
+   <!-- Repeat similar structure for other items -->
+   <div class="col-sm-6  col-md-4 mb-4">
+    <!-- Item Card -->
+    <div class="card">
+        <img src="img/l.jpg" class="card-img-top hov" alt="Dish 1">
+        <div class="card-body">
+            <h5 class="card-title"> Chicken Teriyaki Stir-Fry</h5>
+            <p class="card-text">Brief description of  Chicken Teriyaki</p>
+            <p class="card-text">Price: BDT 200</p>
+            
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel"> Chicken Teriyaki Stir-Fry</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <div id="vegetarianAlert2" class="alert alert-success" role="alert">
+    This item is vegetarian.
+  </div>
+<div class="card">
+      <img src="img/l.jpg" class="card-img-top" alt="Dish 1">
+      <div class="card-body">
+          <h5 class="card-title"> Chicken Teriyaki Stir-Fry</h5>
+          <p class="card-text">Chicken Teriyaki Stir-Fry is a delightful blend of tender chicken strips, colorful vegetables (bell peppers, broccoli, carrots), and a sweet and savory teriyaki sauce served over a bed of steamed jasmine rice..</p>
+          <p class="card-text"><h5>Ingredients:</h5>
+
+            Chicken breast, thinly sliced
+            Bell peppers (assorted colors), sliced
+            Broccoli florets
+            Carrots, julienned
+            Teriyaki sauce (soy sauce, mirin, sugar, ginger, garlic)
+            Jasmine rice
+            <br>
+            <h5>Nutritional Information:</h5>
+            
+            Serving Size: 1 cup
+            Calories: 350
+            Total Fat: 8g
+            Saturated Fat: 2g
+            Cholesterol: 70mg
+            Sodium: 800mg
+            Total Carbohydrates: 45g
+            Dietary Fiber: 4g
+            Sugars: 8g
+            Protein: 25g</p>
+          
+      </div>
+  </div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+
+ <!-- Repeat similar structure for other items -->
+ <div class="col-sm-6  col-md-4 mb-4">
+  <!-- Item Card -->
+  <div class="card">
+      <img src="img/k.jpg" class="card-img-top hov" alt="Dish 1">
+      <div class="card-body">
+          <h5 class="card-title">Shrimp Scampi Pasta</h5>
+          <p class="card-text">Brief description of Shrimp Scampi</p>
+          <p class="card-text">Price: BDT 250</p>
+          
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal6">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel">Shrimp Scampi Pasta</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  
+  <div id="chefsSpecialAlert2" class="alert alert-warning" role="alert">
+    Chef's Special.
+  </div>
+<div class="card">
+    <img src="img/k.jpg" class="card-img-top" alt="Dish 1">
+    <div class="card-body">
+        <h5 class="card-title">Shrimp Scampi Pasta</h5>
+        <p class="card-text">Shrimp Scampi Pasta is a luscious dish featuring succulent shrimp sautéed in garlic-infused butter, white wine, and lemon juice, served over a bed of linguine pasta.</p>
+        <p class="card-text"><h5>Ingredients:</h5>
+
+          Shrimp, peeled and deveined
+          Linguine pasta
+          Unsalted butter
+          Garlic, minced
+          White wine
+          Lemon juice
+          Parsley, chopped
+          Red pepper flakes (optional)
+          <br>
+          <h5>Nutritional Information:</h5>
+          
+          Serving Size: 1 cup
+          Calories: 400
+          Total Fat: 12g
+          Saturated Fat: 6g
+          Cholesterol: 120mg
+          Sodium: 500mg
+          Total Carbohydrates: 50g
+          Dietary Fiber: 3g
+          Sugars: 2g
+          Protein: 20g</p>
+        
+    </div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+      </div>
+  </div>
+</div>
+
+ <!-- Repeat similar structure for other items -->
+ <div class="col-sm-6  col-md-4 mb-4">
+  <!-- Item Card -->
+  <div class="card">
+      <img src="img/j.jpg" class="card-img-top hov" alt="Dish 1">
+      <div class="card-body">
+          <h5 class="card-title">Beef and Broccoli Stir-Fry</h5>
+          <p class="card-text">Brief description of Beef and Broccoli</p>
+          <p class="card-text">Price: BDT 230</p>
+          
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal7">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel">Beef and Broccoli Stir-Fry</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <div id="vegetarianAlert3" class="alert alert-success" role="alert">
+    This item is vegetarian.
+  </div>
+<div class="card">
+    <img src="img/j.jpg" class="card-img-top" alt="Dish 1">
+    <div class="card-body">
+        <h5 class="card-title">Beef and Broccoli Stir-Fry</h5>
+        <p class="card-text">Beef and Broccoli Stir-Fry is a savory and satisfying dish featuring thinly sliced beef, crisp broccoli florets, and a flavorful soy-based sauce. This quick stir-fry is served over a bed of steamed jasmine rice..</p>
+        <p class="card-text"><h5>Ingredients:</h5>
+
+          Beef sirloin, thinly sliced
+          Broccoli florets
+          Soy sauce
+          Oyster sauce
+          Garlic, minced
+          Ginger, grated
+          Sesame oil
+          Brown sugar
+          Jasmine rice
+          <br>
+          <h5>Nutritional Information:</h5>
+          
+          Serving Size: 1 cup
+          Calories: 400
+          Total Fat: 15g
+          Saturated Fat: 5g
+          Cholesterol: 60mg
+          Sodium: 900mg
+          Total Carbohydrates: 40g
+          Dietary Fiber: 3g
+          Sugars: 5g
+          Protein: 25g</p>
+        
+    </div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+      </div>
+  </div>
+</div>
+
+<!-- Repeat similar structure for other items -->
+<div class="col-sm-6  col-md-4 mb-4">
+  <!-- Item Card -->
+  <div class="card">
+      <img src="img/i.jpg" class="card-img-top hov" alt="Dish 1">
+      <div class="card-body">
+          <h5 class="card-title">Caprese Salad</h5>
+          <p class="card-text">Brief description of Caprese Salad.</p>
+          <p class="card-text">Price: BDT 220</p>
+          
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal8">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel">Caprese Salad</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <div id="lowCaloriesAlert3" class="alert alert-info" role="alert">
+    Low in calories.
+  </div>
+<div class="card">
+    <img src="img/i.jpg" class="card-img-top" alt="Dish 1">
+    <div class="card-body">
+        <h5 class="card-title">Caprese Salad</h5>
+        <p class="card-text">Caprese Salad is a refreshing Italian salad showcasing ripe tomatoes, fresh mozzarella cheese, and basil leaves. Drizzled with balsamic glaze and olive oil, this salad is a celebration of summer flavors.</p>
+        <p class="card-text"><h5>
+          Ingredients:
+        </h5>
+
+          Ripe tomatoes, sliced
+          Fresh mozzarella cheese, sliced
+          Fresh basil leaves
+          Balsamic glaze
+          Extra virgin olive oil
+          Salt and pepper
+          <br>
+          <h5>Nutritional Information:</h5>
+          
+          Serving Size: 1 cup
+          Calories: 250
+          Total Fat: 18g
+          Saturated Fat: 8g
+          Cholesterol: 40mg
+          Sodium: 300mg
+          Total Carbohydrates: 5g
+          Dietary Fiber: 2g
+          Sugars: 3g
+          Protein: 14g</p>
+        
+    </div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+      </div>
+  </div>
+</div>
+
+<!-- Repeat similar structure for other items -->
+<div class="col-sm-6  col-md-4 mb-4">
+  <!-- Item Card -->
+  <div class="card">
+      <img src="img/h.jpg" class="card-img-top hov" alt="Dish 1">
+      <div class="card-body">
+          <h5 class="card-title">Vegetarian Chickpea Curry</h5>
+          <p class="card-text">Brief description of Vegetarian .</p>
+          <p class="card-text">Price: BDT 200</p>
+          
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal9">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel">Vegetarian Chickpea Curry</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  
+<div id="chefsSpecialAlert3" class="alert alert-warning" role="alert">
+  Chef's Special.
+</div>
+<div class="card">
+    <img src="img/h.jpg" class="card-img-top" alt="Dish 1">
+    <div class="card-body">
+        <h5 class="card-title">Vegetarian Chickpea Curry</h5>
+        <p class="card-text">Vegetarian Chickpea Curry is a hearty and flavorful dish made with chickpeas, tomatoes, onions, and a blend of aromatic spices. Served with fluffy basmati rice, it's a wholesome and satisfying vegetarian meal.</p>
+        <p class="card-text"><h5>Ingredients:</h5>
+
+          Chickpeas, cooked
+          Tomatoes, diced
+          Onion, finely chopped
+          Garlic, minced
+          Ginger, grated
+          Curry powder
+          Cumin
+          Coriander
+          Turmeric
+          Coconut milk
+          Basmati rice
+          <br>
+          <h5>Nutritional Information:</h5>
+          
+          Serving Size: 1 cup
+          Calories: 300
+          Total Fat: 8g
+          Saturated Fat: 5g
+          Cholesterol: 0mg
+          Sodium: 600mg
+          Total Carbohydrates: 45g
+          Dietary Fiber: 8g
+          Sugars: 6g
+          Protein: 12g</p>
+        
+    </div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+      </div>
+  </div>
+</div>
+
+<!-- Repeat similar structure for other items -->
+<div class="col-sm-6  col-md-4 mb-4">
+  <!-- Item Card -->
+  <div class="card">
+      <img src="img/g.jpg" class="card-img-top hov" alt="Dish 1">
+      <div class="card-body">
+          <h5 class="card-title">Grilled Salmon with Lemon-Dill Sauce</h5>
+          <p class="card-text">Brief description of Grilled .</p>
+          <p class="card-text">Price: BDT 200</p>
+          
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal10">
+More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog" style="max-width: 800px; width: 80%;">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel">Grilled Salmon with Lemon-Dill Sauce</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <div id="chefsSpecialAlert4" class="alert alert-warning" role="alert">
+    Chef's Special.
+  </div>
+<div class="card">
+    <img src="img/g.jpg" class="card-img-top" alt="Dish 1">
+    <div class="card-body">
+        <h5 class="card-title">Grilled Salmon with Lemon-Dill Sauce</h5>
+        <p class="card-text">Grilled Salmon with Lemon-Dill Sauce is a light and flavorful dish that highlights the natural richness of salmon. The salmon fillets are marinated with lemon, garlic, and dill, then grilled to perfection and served with a zesty lemon-dill sauce.
+
+        </p>
+        <p class="card-text"><h5>Ingredients:</h5>
+
+          Salmon fillets
+          Lemon, thinly sliced
+          Fresh dill, chopped
+          Garlic, minced
+          Olive oil
+          Salt and pepper
+          Greek yogurt
+          Dijon mustard
+          Lemon juice
+          <br>
+          <h5>Nutritional Information:</h5>
+          
+          Serving Size: 1 fillet
+          Calories: 350
+          Total Fat: 20g
+          Saturated Fat: 4g
+          Cholesterol: 80mg
+          Sodium: 350mg
+          Total Carbohydrates: 3g
+          Dietary Fiber: 1g
+          Sugars: 1g
+          Protein: 40g</p>
+        
+    </div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+      </div>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!-- ?search bar -->
+<div class=" searchh">
+  <div class="container sear">
+
+    <div class="row height d-flex justify-content-center align-items-center">
+
+      <div class="col-md-6">
+
+        <div class="form">
+          <i class="fa fa-search"></i>
+          <input type="text" class="form-control sear form-input" placeholder="Search anything...">
+          <span class="left-pan"><i class="fa fa-microphone"></i></span>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+<!-- contact form -->
+
+<div class="container contact" id="contact">
+  <div class="mapp">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7390582494136!2d91.83008017589853!3d22.36347964060126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad27bc4bc18d81%3A0xeb37880593c84f49!2sThe%20Arrosto!5e0!3m2!1sen!2sbd!4v1700301411360!5m2!1sen!2sbd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  
+  <form>
+    <h2>Contact Us</h2>
+    <div class="form-group ">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea class="form-control" id="message" rows="5" placeholder="Type your message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary last">Submit</button>
+  </form>
+</div>
+
+
+
+
+
+  
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+      
+
+    </script>
+    <script>
+      // Function to show and automatically hide alerts after a delay
+      function showAlert(alertId, delay) {
+        var alertElement = document.getElementById(alertId);
+        
+        // Show the alert
+        alertElement.style.display = 'block';
+    
+        // Automatically hide the alert after the specified delay (in milliseconds)
+        setTimeout(function() {
+          alertElement.style.display = 'none';
+        }, delay);
+      }
+      for (var i = 1; i <= 10; i++){
+        var modalID=0;
+        modalID='modal'+i;
+        document.getElementById(modalID).addEventListener('shown.bs.modal', function () {
+          // Show the vegetarian alert for 3 seconds
+          showAlert('vegetarianAlert', 2000);
+          showAlert('lowCaloriesAlert', 2000);
+          showAlert('lowCaloriesAlert2', 2000);
+          showAlert('chefsSpecialAlert', 2000);
+          showAlert('vegetarianAlert2', 2000);
+          showAlert('chefsSpecialAlert2', 2000);
+
+          
+          showAlert('vegetarianAlert3', 2000);
+          showAlert('lowCaloriesAlert3', 2000);
+          showAlert('chefsSpecialAlert3', 2000);
+          showAlert('chefsSpecialAlert4', 2000);
+          
+        });
+      }
+      // Show alerts when the modal is shown
+      
+    </script>
+
+    
+  </body>
+</html>
